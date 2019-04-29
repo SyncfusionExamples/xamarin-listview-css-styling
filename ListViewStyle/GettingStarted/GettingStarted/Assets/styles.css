@@ -1,0 +1,18 @@
+﻿#listView {
+    background-color: lightgray;
+}
+
+grid {
+    margin: 20;
+}
+
+.bookName {
+    font-style: bold;
+    font-size: medium;
+}
+
+.bookDescription {
+    margin-top: 15;
+}
+
+
