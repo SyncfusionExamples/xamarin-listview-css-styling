@@ -12,12 +12,7 @@ namespace GettingStarted
         {
             InitializeComponent();
 
-            Xamarin.Forms.StyleSheets.StyleSheet styleSheet = Xamarin.Forms.StyleSheets.StyleSheet.FromAssemblyResource(this.GetType().Assembly, "GettingStarted.Assets.styles.css");
-            if (styleSheet != null)
-                this.Resources.Add(styleSheet) ;
-
             MainPage = new NavigationPage(new MainPage());
-
         }
 
         protected override void OnStart()
